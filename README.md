@@ -17,8 +17,6 @@ A sleek, responsive, and modern Todo application built with React, styled using 
 - **Icons:** Lucide React
 - **Data Source:** JSONPlaceholder API
 
-## 💻 Getting Started
-
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
@@ -30,28 +28,21 @@ You need to have **Node.js** and **Yarn** (or npm) installed on your system.
 ### Installation & Running
 
 1. **Clone the repository:**
+   
    ```bash
    git clone [https://github.com/YOUR_GITHUB_USERNAME/react-todo-app.git](https://github.com/YOUR_GITHUB_USERNAME/react-todo-app.git)
-(Note: Remember to replace YOUR_GITHUB_USERNAME with your real GitHub username once the repository is created)
 
-Navigate into the project directory:
+3. **Navigate into the project directory:**
 
-Bash
-cd react-todo-app
-Install all dependencies:
+   ```bash
+   cd react-todoapp
+
+2. **Install all dependencies:**
 This command reads your package.json and yarn.lock files to safely install exact identical versions of packages (including React, Tailwind CSS, and Lucide Icons):
 
-Bash
-yarn install
-Start the local development server:
+   ```bash
+   yarn install
+3. **Start the local development server:**
 
-Bash
-yarn start
-The application will automatically open in your default browser at http://localhost:3000.
-
-Configuration Files Included
-tailwind.config.js & postcss.config.js - Configuration setup for compiling Tailwind utilities.
-
-package.json - Dependencies tracking manifest.
-
-yarn.lock - Lockfile ensuring strict dependency tree versioning.
+   ```bash
+   yarn start
