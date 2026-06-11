@@ -31,16 +31,16 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your computer.
    ```bash
    git clone [https://github.com/YOUR_USERNAME/react-todo-app.git](https://github.com/YOUR_USERNAME/react-todo-app.git)
    
-2. **Navigate into the project directory:
+2. **Navigate into the project directory:**
 Bash
 cd react-todo-app
 
-3. **Install the dependencies:
+3. **Install the dependencies:**
 This will automatically install all required packages listed in package.json (including Tailwind and Lucide Icons).
 Bash
 git install
 
-4. **Start the development server:
+4. **Start the development server:**
 Bash
 npm start
 The application should now be running on http://localhost:3000.
