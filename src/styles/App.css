@@ -1,0 +1,132 @@
+
+.header-content {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.header-icon{
+  margin-right: 0.5rem;
+}
+.header-title{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.header-subtitle{
+  color: rgba(255, 255, 255,0.9);
+}
+.todo-list{
+  overflow: hidden;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0,0,0, 0.1);
+
+}
+.todo-item{
+  display:flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  border-bottom: 1px solid #f3f4f6;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.todo-item:hover{
+  background-color: #f9fafb;
+}
+.todo-checkbox{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1.5rem;
+}
+.circle-icon{
+  color: #9ca3af;
+}
+.todo-title{
+  color: #374151;
+}
+.check-icon{
+  color: #10b981;
+}
+.todo-item.completed{
+  background-color: #f9fafb;
+}
+.todo-item.completed .todo-title{
+  text-decoration: line-through;
+  color: #9cafaf;
+}
+.add-todo-container{
+  margin-bottom: 2rem;
+}
+.add-todo-form{
+  display:flex;
+  gap: 1rem;
+}
+.add-todo-input{
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid #e5e7eb;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+.add-todo-input:focus{
+  outline: none;
+  border-color: #3b72f6;
+}
+.add-todo-button{
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  background-color: #3b72f6;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.add-todo-button:hover{
+  background-color: #2563eb;
+}
+.error-message{
+  color: #ef4444;
+  font-size: 0.875rem;
+  margin: 0.5rem;
+}
+.error-container{
+  color: #ef4444;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.error-icon{
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+}
+.loading-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+.loading-icon{
+  width: 3rem;
+  height: 3rem;
+  color: #3b82f6;
+  margin-bottom: 1rem;
+  animation: spin 1s linear infinite;
+}
+.loading-text{
+color: #4b5563;
+}
+@keyframes spin{
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
